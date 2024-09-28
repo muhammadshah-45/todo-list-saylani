@@ -11,6 +11,7 @@ if(!inputValue.value.trim()){
 //   create a remove button
 var removeBtn = document.createElement("button");
 removeBtn.textContent = "Delete";
+removeBtn.classList.add("remove-btn")
 li.appendChild(removeBtn)
  
 taskList.appendChild(li)
